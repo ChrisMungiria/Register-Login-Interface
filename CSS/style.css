@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+.loginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #c9f7c1;
+}
+h1{
+    margin-bottom:30px;
+}
+form{
+    background-color: #acff9d;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -30px 30px 20px rgba(3, 136, 16, 0.667);
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+
+form:hover{
+    padding: 30px;
+}
+label{
+    display: inline-block;
+    clear: left;
+    width: 170px;
+    text-align: right;
+    margin-right: 50px;
+}
+input {
+  display: inline-block;
+  text-align: center;
+}
+label, input {
+  margin-bottom: 10px;
+}
+.submit{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    border: 3px solid green;
+    transition: 0.3s ease-in-out;
+    background-color: #7bff63;
+}
+.submit:hover{
+    background-color: green;
+    color: white;
+    border: 3px solid green;
+    cursor: pointer;
+}
+.text{
+    height: 25px;
+    width: 200px;
+    border: 1px solid green;
+    background-color: #acff9d;
+    color: black;
+}
+.text:focus{
+    outline: none;
+}
+.text:focus ::placeholder{
+    top: -10px;
+}
+.text::placeholder{
+    color: rgb(26, 139, 65);
+}
+.toLogin{
+    text-align: center;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.toLogin:hover{
+    cursor: pointer;
+    font-size: 17px;
+}
+a{
+    color: #2f782c;
+    text-align: center;
+    text-decoration: none;
+}
